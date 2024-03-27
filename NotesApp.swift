@@ -9,8 +9,6 @@ import SwiftUI
 
 @main
 struct NotesApp: App {
-    
-    
     @StateObject private var dataController=DataController()
     
     var body: some Scene {

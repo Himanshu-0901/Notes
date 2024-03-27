@@ -65,9 +65,9 @@
 			isa = PBXGroup;
 			children = (
 				A336A9C72AE16AE200966645 /* ContentView.swift */,
+				A3C670142B113A7600774DCD /* NotesList.swift */,
 				A336A9D32AE16D6E00966645 /* AddNotesView.swift */,
 				A38A21F02AE3FEA500500A0A /* EditNotesView.swift */,
-				A3C670142B113A7600774DCD /* NotesList.swift */,
 				A336A9DA2AE186D400966645 /* DataModel */,
 				A336A9C92AE16AE300966645 /* Assets.xcassets */,
 				A336A9CB2AE16AE300966645 /* Preview Content */,
@@ -86,8 +86,8 @@
 		A336A9DA2AE186D400966645 /* DataModel */ = {
 			isa = PBXGroup;
 			children = (
-				A336A9D82AE1752C00966645 /* DataController.swift */,
 				A336A9D52AE174AD00966645 /* Saved.xcdatamodeld */,
+				A336A9D82AE1752C00966645 /* DataController.swift */,
 				A38A21F22AE4124200500A0A /* Helper */,
 			);
 			path = DataModel;

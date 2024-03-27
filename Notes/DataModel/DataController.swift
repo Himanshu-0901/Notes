@@ -23,7 +23,6 @@ class DataController:ObservableObject{
     }
     
     func save(context:NSManagedObjectContext){
-        
         do{
             try context.save()
             print("Data Saved")
@@ -44,8 +43,8 @@ class DataController:ObservableObject{
       
        save(context:context)
     }
+    
     func editData(obj:Note,title:String,note:String,context:NSManagedObjectContext){
-        
         obj.date=Date()
         obj.title=title
         obj.note=note
