@@ -25,6 +25,7 @@ struct ContentView:View{
                     VStack(alignment:.leading){
                         Text("Hii")
                         Text("Hello")
+                        Text("My name is Himanshu.")
                     }}.listStyle(.plain)
                 Spacer()
                 
